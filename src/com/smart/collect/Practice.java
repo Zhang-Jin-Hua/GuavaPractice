@@ -14,7 +14,6 @@ public class Practice {
         ArrayList<Integer> list = Lists.newArrayList(new Integer[]{1, 2, 3, 4});
 
         List<String> transform = Lists.transform(list, new Function<Integer, String>() {
-            @Override
             public String apply(Integer integer) {
                 return integer + "";
             }
